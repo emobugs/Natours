@@ -137,7 +137,6 @@ body {
 
 .section-stories {
   padding: 15rem 0;
-  background-color: #f7f7f7;
   position: relative; }
 
 .btn:link, .btn:visited {
@@ -375,7 +374,7 @@ body {
   width: 75%;
   margin: 0 auto;
   box-shadow: 0 2rem 4rem 0.2rem rgba(0, 0, 0, 0.2);
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.4);
   border-radius: 3px;
   padding: 6rem;
   padding-left: 9rem;
@@ -429,7 +428,7 @@ body {
   left: 0;
   height: 100%;
   width: 100%;
-  z-index: 0;
+  z-index: -1;
   opacity: .15; }
   .bg-video__content {
     width: 100%;
